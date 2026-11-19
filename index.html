@@ -1,1194 +1,1718 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="./stilus.css" />
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-    <title>Advent Calendar</title>
-  </head>
-  <body>
-    <div class="container d-grid gap-2">
-      <div id="cim-01">
-        2026 Advent
-        <img style="fill: #492156" src="./download.svg" />
-        SZBI SZEGED
-      </div>
-      <div id="cim-02">
-        <span id="lj">Lackfi János</span>
-        <span id="kv">Karácsonyváró</span>
-      </div>
-      <div class="row d-grid gap-2 sor">
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/1.png&quot;)"
-        ></div>
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/2.png&quot;)"
-        ></div>
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/3.png&quot;)"
-        ></div>
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/4.png&quot;)"
-        ></div>
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/5.png&quot;)"
-        ></div>
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/6.png&quot;)"
-        ></div>
-      </div>
-      <div class="row d-grid gap-2 sor">
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/7.png&quot;)"
-        ></div>
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/8.png&quot;)"
-        ></div>
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/9.png&quot;)"
-        ></div>
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/10.png&quot;)"
-        ></div>
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/11.png&quot;)"
-        ></div>
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/12.png&quot;)"
-        ></div>
-      </div>
-      <div class="row d-grid gap-2 sor">
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/13.png&quot;)"
-        ></div>
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/14.png&quot;)"
-        ></div>
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/15.png&quot;)"
-        ></div>
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/16.png&quot;)"
-        ></div>
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/17.png&quot;)"
-        ></div>
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/18.png&quot;)"
-        ></div>
-      </div>
-      <div class="row d-grid gap-2 sor">
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/19.png&quot;)"
-        ></div>
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/20.png&quot;)"
-        ></div>
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/21.png&quot;)"
-        ></div>
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/22.png&quot;)"
-        ></div>
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/23.png&quot;)"
-        ></div>
-        <div
-          class="cl-6 fiok"
-          style="background-image: url(&quot;./images/24.png&quot;)"
-        ></div>
-      </div>
-      <div class="row d-grid gap-2 sor2">
-        <div
-          class="cl-2 fiok"
-          style="
-            background-image: url(&quot;./images/25.png&quot;);
-            border: 3px solid #d1b46b;
-          "
-        ></div>
-        <div
-          class="cl-2 fiok"
-          style="
-            background-image: url(&quot;./images/26.png&quot;);
-            border: 3px solid #d1b46b;
-          "
-        ></div>
-      </div>
-      <div id="cim-03">A szerző engedélyével.</div>
-    </div>
-    <div class="modal" id="myModal_1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">
-              2026. november 30. Advent első vasárnapja
-            </h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
-
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="300" height="280" controls>
-              <source src="./videos/IMG_0403.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 1,26-28</h4>
-            <p>
-              <b>Ige: </b> „Üdvözlégy, kegyelemmel teljes, az Úr van teveled.”
-            </p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>Isten nem csak a szenteket
-              szólítja meg, hanem engem is, Téged is - pont ott, ahol most vagy.
-            </p>
-            <ul>
-              <li>
-                💭 „Ha Máriát megszólította, engem is meg tud, és Téged is.”
-              </li>
-              <li>💭 „Lehet, hogy Isten most is kopogtat - csak csendben.”</li>
-              <li>💭 „Nyisd ki a szíved, hogy meghalljad.”</li>
-            </ul>
-            <p><b>Elmondja:</b> Varga Alex 11/A-s tanuló</p>
-          </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link
+            rel="stylesheet"
+            href="./stilus.css"
+        />
+        <link
+            rel="shortcut icon"
+            href="./favicon.ico"
+            type="image/x-icon"
+        />
+        <title>Advent Calendar</title>
+    </head>
+    <body>
+        <div class="container d-grid gap-2">
+            <div id="cim-01">
+                2026 Advent
+                <img
+                    style="fill: #492156"
+                    src="./download_recolored.svg"
+                />
+                SZBI SZEGED
+            </div>
+            <div id="cim-02">
+                <span id="lj">Lackfi János</span>
+                <span id="kv">Karácsonyváró</span>
+            </div>
+            <div class="row d-grid gap-2 sor">
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/01.png')"
+                ></div>
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/02.png')"
+                ></div>
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/03.png')"
+                ></div>
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/04.png')"
+                ></div>
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/05.png')"
+                ></div>
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/06.png')"
+                ></div>
+            </div>
+            <div class="row d-grid gap-2 sor">
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/07.png')"
+                ></div>
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/08.png')"
+                ></div>
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/09.png')"
+                ></div>
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/10.png')"
+                ></div>
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/11.png')"
+                ></div>
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/12.png')"
+                ></div>
+            </div>
+            <div class="row d-grid gap-2 sor">
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/13.png')"
+                ></div>
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/14.png')"
+                ></div>
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/15.png')"
+                ></div>
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/16.png')"
+                ></div>
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/17.png')"
+                ></div>
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/18.png')"
+                ></div>
+            </div>
+            <div class="row d-grid gap-2 sor">
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/19.png')"
+                ></div>
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/20.png')"
+                ></div>
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/21.png')"
+                ></div>
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/22.png')"
+                ></div>
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/23.png')"
+                ></div>
+                <div
+                    class="cl-6 fiok"
+                    style="background-image: url('./images/24.png')"
+                ></div>
+            </div>
+            <div class="row gap-2 sor2">
+                <div
+                    class="cl-2 fiok"
+                    style="
+                        background-image: url('./images/25.png');
+                        border: 3px solid #d1b46b;
+                    "
+                ></div>
+                <div
+                    class="cl-2 fiok"
+                    style="
+                        background-image: url('./images/26.png');
+                        border: 3px solid #d1b46b;
+                    "
+                ></div>
+            </div>
+            <div id="cim-03">A szerző engedélyével.</div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_2">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 1.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_1"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            2026. november 30. Advent első vasárnapja
+                        </h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0347.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 1,29-31</h4>
-            <p><b>Ige: </b> „Ne félj, Mária! Kegyelmet találtál Istennél.”</p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>Isten nem félelmet hoz, hanem
-              békét - még ha nem is mindig érted, mi történik.
-            </p>
-            <ul>
-              <li>
-                💭 „Én is felismertem, hogy a félelem nem baj, de nem kell benne
-                maradni.”
-              </li>
-              <li>
-                💭 „Mindenki fél valamitől. Isten pont oda jön, ahol a legjobban
-                rettegek.”
-              </li>
-              <li>
-                💭 „A bátorság nem az, hogy nem félek - hanem hogy bízom.”
-              </li>
-            </ul>
-            <p><b>Elmondja:</b> Potor Dorina 11/B-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="300"
+                            height="280"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0403.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 1,26-28</h4>
+                        <p>
+                            <b>Ige: </b> „Üdvözlégy, kegyelemmel teljes, az Úr
+                            van teveled.”
+                        </p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>Isten nem csak a
+                            szenteket szólítja meg, hanem engem is, Téged is -
+                            pont ott, ahol most vagy.
+                        </p>
+                        <ul>
+                            <li>
+                                💭 „Ha Máriát megszólította, engem is meg tud,
+                                és Téged is.”
+                            </li>
+                            <li>
+                                💭 „Lehet, hogy Isten most is kopogtat - csak
+                                csendben.”
+                            </li>
+                            <li>💭 „Nyisd ki a szíved, hogy meghalljad.”</li>
+                        </ul>
+                        <p><b>Elmondja:</b> Varga Alex 11/A-s tanuló</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_3">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 2.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_2"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2026. december 1.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0372.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 1,34-35</h4>
-            <p>
-              <b>Ige: </b> „A Szentlélek száll rád, és a Magasságbeli ereje
-              beárnyékoz.”
-            </p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>A Szentlélek az, aki segít
-              szeretni, hinni, megbocsátani.
-            </p>
-            <ul>
-              <li>
-                💭 „A Lélek akkor is megérint, amikor csak egy jó dalt
-                hallgatok.”
-              </li>
-              <li>
-                💭 „Nem kell különlegesnek lennem ahhoz, hogy Isten velem
-                legyen.”
-              </li>
-              <li>💭 „A Szentlélek finoman visszaterel, amikor letérek.”</li>
-            </ul>
-            <p><b>Elmondja:</b> Mityók Roland 11/A-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0347.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 1,29-31</h4>
+                        <p>
+                            <b>Ige: </b> „Ne félj, Mária! Kegyelmet találtál
+                            Istennél.”
+                        </p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>Isten nem
+                            félelmet hoz, hanem békét - még ha nem is mindig
+                            érted, mi történik.
+                        </p>
+                        <ul>
+                            <li>
+                                💭 „Én is felismertem, hogy a félelem nem baj,
+                                de nem kell benne maradni.”
+                            </li>
+                            <li>
+                                💭 „Mindenki fél valamitől. Isten pont oda jön,
+                                ahol a legjobban rettegek.”
+                            </li>
+                            <li>
+                                💭 „A bátorság nem az, hogy nem félek - hanem
+                                hogy bízom.”
+                            </li>
+                        </ul>
+                        <p><b>Elmondja:</b> Potor Dorina 11/B-s tanuló</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_4">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 3.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_3"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2026. december 2.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0346.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 1,38</h4>
-            <p><b>Ige: </b> „Legyen nekem a te igéd szerint!”</p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>Néha a legnagyobb bátorság az,
-              ha igent mondasz arra, amit Isten kér.
-            </p>
-            <ul>
-              <li>
-                💭 „Sokszor nem tudom, mit akar Isten, de érzem, mikor kell
-                lépnem.”
-              </li>
-              <li>
-                💭 „Az 'igenem' lehet kicsi, de Isten óriásit tud belőle
-                alkotni.”
-              </li>
-              <li>
-                💭 „A hit néha csak egy döntés: bízom akkor is, ha nem látom
-                előre.”
-              </li>
-            </ul>
-            <p><b>Elmondja:</b> Pető Maja Zoé 11/B-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0372.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 1,34-35</h4>
+                        <p>
+                            <b>Ige: </b> „A Szentlélek száll rád, és a
+                            Magasságbeli ereje beárnyékoz.”
+                        </p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>A Szentlélek az,
+                            aki segít szeretni, hinni, megbocsátani.
+                        </p>
+                        <ul>
+                            <li>
+                                💭 „A Lélek akkor is megérint, amikor csak egy
+                                jó dalt hallgatok.”
+                            </li>
+                            <li>
+                                💭 „Nem kell különlegesnek lennem ahhoz, hogy
+                                Isten velem legyen.”
+                            </li>
+                            <li>
+                                💭 „A Szentlélek finoman visszaterel, amikor
+                                letérek.”
+                            </li>
+                        </ul>
+                        <p><b>Elmondja:</b> Mityók Roland 11/A-s tanuló</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_5">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 4.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_4"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2026. december 3.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0361.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 1,39-45</h4>
-            <p><b>Ige: </b> „Mária útra kelt és sietve ment Erzsébethez.”</p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>Az advent nem csak várakozás,
-              hanem mozdulás - indulj el valaki felé ma!
-            </p>
-            <ul>
-              <li>💭 „Lehet, hogy valaki pont rám vár ma.”</li>
-              <li>💭 „A szeretet nem mindig nagy dolgokban látszik.”</li>
-              <li>💭 „Ha segítek valakinek, Jézus közelebb jön hozzám.”</li>
-            </ul>
-            <p><b>Elmondja:</b> Szabó Szebasztián Vendel 9/A-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0346.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 1,38</h4>
+                        <p><b>Ige: </b> „Legyen nekem a te igéd szerint!”</p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>Néha a legnagyobb
+                            bátorság az, ha igent mondasz arra, amit Isten kér.
+                        </p>
+                        <ul>
+                            <li>
+                                💭 „Sokszor nem tudom, mit akar Isten, de érzem,
+                                mikor kell lépnem.”
+                            </li>
+                            <li>
+                                💭 „Az 'igenem' lehet kicsi, de Isten óriásit
+                                tud belőle alkotni.”
+                            </li>
+                            <li>
+                                💭 „A hit néha csak egy döntés: bízom akkor is,
+                                ha nem látom előre.”
+                            </li>
+                        </ul>
+                        <p><b>Elmondja:</b> Pető Maja Zoé 11/B-s tanuló</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_6">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 5.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_5"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2026. december 4.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0353.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 1,46-48</h4>
-            <p>
-              <b>Ige: </b> „Magasztalja lelkem az Urat, és ujjong a lelkem
-              Istenben.”
-            </p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>A hála erőt ad, még akkor is,
-              ha nem minden tökéletes.
-            </p>
-            <ul>
-              <li>💭 „Amikor hálás vagyok, valahogy minden könnyebb lesz.”</li>
-              <li>💭 „A zene, a hála és a mosoly - ezek is imák lehetnek.”</li>
-              <li>💭 „Nem kell mindig panaszkodni - jó néha csak köszönni.”</li>
-            </ul>
-            <p><b>Elmondja:</b> Sólya Réka 11/B-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0361.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 1,39-45</h4>
+                        <p>
+                            <b>Ige: </b> „Mária útra kelt és sietve ment
+                            Erzsébethez.”
+                        </p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>Az advent nem
+                            csak várakozás, hanem mozdulás - indulj el valaki
+                            felé ma!
+                        </p>
+                        <ul>
+                            <li>💭 „Lehet, hogy valaki pont rám vár ma.”</li>
+                            <li>
+                                💭 „A szeretet nem mindig nagy dolgokban
+                                látszik.”
+                            </li>
+                            <li>
+                                💭 „Ha segítek valakinek, Jézus közelebb jön
+                                hozzám.”
+                            </li>
+                        </ul>
+                        <p>
+                            <b>Elmondja:</b> Szabó Szebasztián Vendel 9/A-s
+                            tanuló
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_7">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 6.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_6"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2026. december 5.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0386.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 1,57-60</h4>
-            <p><b>Ige: </b> „Fiút szült, és nevét Jánosnak nevezte.”</p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>Isten mindannyiunkat név
-              szerint ismer - nem vagy csak egy arc a tömegben.
-            </p>
-            <ul>
-              <li>💭 „Jó érzés tudni, hogy Isten nem felejt el engem.”</li>
-              <li>💭 „Ha név szerint ismer, akkor értékelem magam is.”</li>
-              <li>💭 „Lehet, hogy a világ nem figyel rám, de Isten igen.”</li>
-            </ul>
-            <p><b>Elmondja:</b> Erhardt Csongor 10/B-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0353.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 1,46-48</h4>
+                        <p>
+                            <b>Ige: </b> „Magasztalja lelkem az Urat, és ujjong
+                            a lelkem Istenben.”
+                        </p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>A hála erőt ad,
+                            még akkor is, ha nem minden tökéletes.
+                        </p>
+                        <ul>
+                            <li>
+                                💭 „Amikor hálás vagyok, valahogy minden
+                                könnyebb lesz.”
+                            </li>
+                            <li>
+                                💭 „A zene, a hála és a mosoly - ezek is imák
+                                lehetnek.”
+                            </li>
+                            <li>
+                                💭 „Nem kell mindig panaszkodni - jó néha csak
+                                köszönni.”
+                            </li>
+                        </ul>
+                        <p><b>Elmondja:</b> Sólya Réka 11/B-s tanuló</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_8">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">
-              2026. december 7. Advent második vasárnapja
-            </h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_7"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2026. december 6.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0352.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 1,76-79</h4>
-            <p>
-              <b>Ige: </b> „Te pedig, gyermek, a Magasságbeli prófétája leszel.”
-            </p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>Isten terve veled is különleges
-              - ne kicsinyeld le magad!
-            </p>
-            <ul>
-              <li>
-                💭 „Nem kell híresnek lennem ahhoz, hogy számítson, amit
-                teszek.”
-              </li>
-              <li>
-                💭 „Lehet, hogy Isten pont rajtam keresztül akar jót vinni
-                valakihez.”
-              </li>
-              <li>💭 „Értékes vagyok, mert Isten így akarta.”</li>
-            </ul>
-            <p><b>Elmondja:</b> Csonka Viktória 11/B-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0386.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 1,57-60</h4>
+                        <p>
+                            <b>Ige: </b> „Fiút szült, és nevét Jánosnak
+                            nevezte.”
+                        </p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>Isten
+                            mindannyiunkat név szerint ismer - nem vagy csak egy
+                            arc a tömegben.
+                        </p>
+                        <ul>
+                            <li>
+                                💭 „Jó érzés tudni, hogy Isten nem felejt el
+                                engem.”
+                            </li>
+                            <li>
+                                💭 „Ha név szerint ismer, akkor értékelem magam
+                                is.”
+                            </li>
+                            <li>
+                                💭 „Lehet, hogy a világ nem figyel rám, de Isten
+                                igen.”
+                            </li>
+                        </ul>
+                        <p><b>Elmondja:</b> Erhardt Csongor 10/B-s tanuló</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_9">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 8.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_8"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            2026. december 7. Advent második vasárnapja
+                        </h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0388.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 2,1-5</h4>
-            <p><b>Ige: </b> „Elmentek Betlehembe.”</p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>Néha az úton levés is része az
-              Istenhez vezető útnak.
-            </p>
-            <ul>
-              <li>
-                💭 „Nem baj, ha még nem tudom, hova tartok - csak haladjak
-                Vele.”
-              </li>
-              <li>💭 „Betlehem nemcsak hely, hanem szívállapot.”</li>
-              <li>
-                💭 „József és Mária együtt mentek - jó, ha van, akivel együtt
-                keresem Istent.”
-              </li>
-            </ul>
-            <p><b>Elmondja:</b> Lele Szabolcs József 10/B-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0352.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 1,76-79</h4>
+                        <p>
+                            <b>Ige: </b> „Te pedig, gyermek, a Magasságbeli
+                            prófétája leszel.”
+                        </p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>Isten terve veled
+                            is különleges - ne kicsinyeld le magad!
+                        </p>
+                        <ul>
+                            <li>
+                                💭 „Nem kell híresnek lennem ahhoz, hogy
+                                számítson, amit teszek.”
+                            </li>
+                            <li>
+                                💭 „Lehet, hogy Isten pont rajtam keresztül akar
+                                jót vinni valakihez.”
+                            </li>
+                            <li>💭 „Értékes vagyok, mert Isten így akarta.”</li>
+                        </ul>
+                        <p><b>Elmondja:</b> Csonka Viktória 11/B-s tanuló</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_10">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 9.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_9"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2026. december 8.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0416.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 2,6-7</h4>
-            <p><b>Ige: </b> „Nem volt számukra hely a szálláson.”</p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>Adj helyet Jézusnak a
-              napjaidban - akár csak pár perc csöndben.
-            </p>
-            <ul>
-              <li>💭 „A telefon elnémítása néha imádság.”</li>
-              <li>
-                💭 „Néha csak annyit kell mondani: „Istenem, itt vagyok.””
-              </li>
-              <li>
-                💭 „Ha Jézusnak van hely a szívemben, minden más a helyére
-                kerül.”
-              </li>
-            </ul>
-            <p><b>Elmondja:</b> Juhász Anna 11/B-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0388.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 2,1-5</h4>
+                        <p><b>Ige: </b> „Elmentek Betlehembe.”</p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>Néha az úton
+                            levés is része az Istenhez vezető útnak.
+                        </p>
+                        <ul>
+                            <li>
+                                💭 „Nem baj, ha még nem tudom, hova tartok -
+                                csak haladjak Vele.”
+                            </li>
+                            <li>
+                                💭 „Betlehem nemcsak hely, hanem szívállapot.”
+                            </li>
+                            <li>
+                                💭 „József és Mária együtt mentek - jó, ha van,
+                                akivel együtt keresem Istent.”
+                            </li>
+                        </ul>
+                        <p>
+                            <b>Elmondja:</b> Lele Szabolcs József 10/B-s tanuló
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_11">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 10.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_10"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2026. december 9.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0371.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 2,8-12</h4>
-            <p><b>Ige: </b> „Ne féljetek! Nagy örömet hirdetek nektek.”</p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>Az öröm nem függ a
-              körülményeidtől - Jézus maga az öröm.
-            </p>
-            <ul>
-              <li>💭 „A hit nem mindig komoly - néha nevetés is lehet.”</li>
-              <li>
-                💭 „Jézusban lenni olyan, mint amikor megnyugszom egy nehéz nap
-                után.”
-              </li>
-              <li>
-                💭 „Az öröm nem azt jelenti, hogy minden rendben - hanem hogy
-                nem vagyok egyedül.”
-              </li>
-            </ul>
-            <p><b>Elmondja:</b> Máriási Gábor 11/A-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0416.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 2,6-7</h4>
+                        <p>
+                            <b>Ige: </b> „Nem volt számukra hely a szálláson.”
+                        </p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>Adj helyet
+                            Jézusnak a napjaidban - akár csak pár perc csöndben.
+                        </p>
+                        <ul>
+                            <li>💭 „A telefon elnémítása néha imádság.”</li>
+                            <li>
+                                💭 „Néha csak annyit kell mondani: „Istenem, itt
+                                vagyok.””
+                            </li>
+                            <li>
+                                💭 „Ha Jézusnak van hely a szívemben, minden más
+                                a helyére kerül.”
+                            </li>
+                        </ul>
+                        <p><b>Elmondja:</b> Juhász Anna 11/B-s tanuló</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_12">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 11.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_11"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2026. december 10.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0345.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 2,13-14</h4>
-            <p>
-              <b>Ige: </b> „Dicsőség a magasságban Istennek, és békesség a
-              földön.”
-            </p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>A béke ott kezdődik, amikor el
-              tudom engedni a haragot.
-            </p>
-            <ul>
-              <li>💭 „Ha megbocsátok, én is felszabadulok.”</li>
-              <li>💭 „A béke nem csend - hanem nyugalom belül.”</li>
-              <li>💭 „A karácsony békéje bennem kezdődik.”</li>
-            </ul>
-            <p><b>Elmondja:</b> Ferincz Hanna Réka 11/B-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0371.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 2,8-12</h4>
+                        <p>
+                            <b>Ige: </b> „Ne féljetek! Nagy örömet hirdetek
+                            nektek.”
+                        </p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>Az öröm nem függ
+                            a körülményeidtől - Jézus maga az öröm.
+                        </p>
+                        <ul>
+                            <li>
+                                💭 „A hit nem mindig komoly - néha nevetés is
+                                lehet.”
+                            </li>
+                            <li>
+                                💭 „Jézusban lenni olyan, mint amikor
+                                megnyugszom egy nehéz nap után.”
+                            </li>
+                            <li>
+                                💭 „Az öröm nem azt jelenti, hogy minden rendben
+                                - hanem hogy nem vagyok egyedül.”
+                            </li>
+                        </ul>
+                        <p><b>Elmondja:</b> Máriási Gábor 11/A-s tanuló</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_13">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 12.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_12"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2026. december 11.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0411.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 2,15-16</h4>
-            <p>
-              <b>Ige: </b> „Elmentek Betlehembe, és megtalálták a gyermeket.”
-            </p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>Néha csak el kell indulni, hogy
-              megtaláld, amit keresel.
-            </p>
-            <ul>
-              <li>
-                💭 „Nem fogok mindent megérteni, de mehetek, mint a pásztorok.”
-              </li>
-              <li>💭 „Az út a fontosabb, mint a cél.”</li>
-              <li>💭 „Istenhez nem térképpel jutok el, hanem bizalommal.”</li>
-            </ul>
-            <p><b>Elmondja:</b> Kiss Tamás Zsolt 12/A-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0345.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 2,13-14</h4>
+                        <p>
+                            <b>Ige: </b> „Dicsőség a magasságban Istennek, és
+                            békesség a földön.”
+                        </p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>A béke ott
+                            kezdődik, amikor el tudom engedni a haragot.
+                        </p>
+                        <ul>
+                            <li>💭 „Ha megbocsátok, én is felszabadulok.”</li>
+                            <li>
+                                💭 „A béke nem csend - hanem nyugalom belül.”
+                            </li>
+                            <li>💭 „A karácsony békéje bennem kezdődik.”</li>
+                        </ul>
+                        <p><b>Elmondja:</b> Ferincz Hanna Réka 11/B-s tanuló</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_14">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 13.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_13"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2026. december 12.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0378.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 2,19</h4>
-            <p><b>Ige: </b> „Mária mindezeket szívébe zárta.”</p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>Isten szól - csak meg kell
-              őrizni a szívben, amit mond.
-            </p>
-            <ul>
-              <li>💭 „Nem kell mindent azonnal megérteni.”</li>
-              <li>
-                💭 „A csendben gyakran többet mond Isten, mint szavakban.”
-              </li>
-              <li>
-                💭 „Jegyzetfüzet helyett néha elég, ha szívből emlékszem.”
-              </li>
-            </ul>
-            <p><b>Elmondja:</b> Szalay Zétény András 11/A-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0411.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 2,15-16</h4>
+                        <p>
+                            <b>Ige: </b> „Elmentek Betlehembe, és megtalálták a
+                            gyermeket.”
+                        </p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>Néha csak el kell
+                            indulni, hogy megtaláld, amit keresel.
+                        </p>
+                        <ul>
+                            <li>
+                                💭 „Nem fogok mindent megérteni, de mehetek,
+                                mint a pásztorok.”
+                            </li>
+                            <li>💭 „Az út a fontosabb, mint a cél.”</li>
+                            <li>
+                                💭 „Istenhez nem térképpel jutok el, hanem
+                                bizalommal.”
+                            </li>
+                        </ul>
+                        <p><b>Elmondja:</b> Kiss Tamás Zsolt 12/A-s tanuló</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_15">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">
-              2026. december 14. Advent harmadik vasárnapja
-            </h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_14"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2026. december 13.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0379.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 2,22-24</h4>
-            <p><b>Ige: </b> „Jézust bemutatták az Úrnak.”</p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>Istenhez tartozni nem korlát -
-              biztonság.
-            </p>
-            <ul>
-              <li>💭 „Nem félek attól, ha másoknak furcsa a hitem.”</li>
-              <li>💭 „A templom nem régi szokás - találkozás helye.”</li>
-              <li>
-                💭 „Istenhez tartozni nem mindig könnyű, de mindig megéri.”
-              </li>
-            </ul>
-            <p><b>Elmondja:</b> Nagy Simon Félix 11/A-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0378.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 2,19</h4>
+                        <p><b>Ige: </b> „Mária mindezeket szívébe zárta.”</p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>Isten szól - csak
+                            meg kell őrizni a szívben, amit mond.
+                        </p>
+                        <ul>
+                            <li>💭 „Nem kell mindent azonnal megérteni.”</li>
+                            <li>
+                                💭 „A csendben gyakran többet mond Isten, mint
+                                szavakban.”
+                            </li>
+                            <li>
+                                💭 „Jegyzetfüzet helyett néha elég, ha szívből
+                                emlékszem.”
+                            </li>
+                        </ul>
+                        <p>
+                            <b>Elmondja:</b> Szalay Zétény András 11/A-s tanuló
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_16">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 15.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_15"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            2026. december 14. Advent harmadik vasárnapja
+                        </h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0415.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 2,25-32</h4>
-            <p><b>Ige: </b> „Simeon felismerte Jézust.”</p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>Kérd Istent, hogy nyissa meg a
-              szemed, hogy észrevedd Őt.
-            </p>
-            <ul>
-              <li>
-                💭 „Néha Jézus a padtársamban van, csak nem veszem észre.”
-              </li>
-              <li>
-                💭 „Simeon éveket várt - nekem pár perc türelem is nehéz.”
-              </li>
-              <li>💭 „A felismerés csendben történik.”</li>
-            </ul>
-            <p><b>Elmondja:</b> Csehó-Kovács Márk 12/A-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0379.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 2,22-24</h4>
+                        <p><b>Ige: </b> „Jézust bemutatták az Úrnak.”</p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>Istenhez tartozni
+                            nem korlát - biztonság.
+                        </p>
+                        <ul>
+                            <li>
+                                💭 „Nem félek attól, ha másoknak furcsa a
+                                hitem.”
+                            </li>
+                            <li>
+                                💭 „A templom nem régi szokás - találkozás
+                                helye.”
+                            </li>
+                            <li>
+                                💭 „Istenhez tartozni nem mindig könnyű, de
+                                mindig megéri.”
+                            </li>
+                        </ul>
+                        <p><b>Elmondja:</b> Nagy Simon Félix 11/A-s tanuló</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_17">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 16.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_16"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2026. december 15.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0383.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 2,36-38</h4>
-            <p><b>Ige: </b> „Anna hálaadással beszélt a gyermekről.”</p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>Beszélj arról, amit Jézus tett
-              az életedben!
-            </p>
-            <ul>
-              <li>
-                💭 „Ha megosztom, amit kaptam, az nem tűnik el -
-                megsokszorozódik.”
-              </li>
-              <li>💭 „A hitet nem csak hinni kell, hanem élni.”</li>
-              <li>💭 „Egy jó szó is lehet bizonyság.”</li>
-            </ul>
-            <p><b>Elmondja:</b> Szalma Dániel 11/A-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0415.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 2,25-32</h4>
+                        <p><b>Ige: </b> „Simeon felismerte Jézust.”</p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>Kérd Istent, hogy
+                            nyissa meg a szemed, hogy észrevedd Őt.
+                        </p>
+                        <ul>
+                            <li>
+                                💭 „Néha Jézus a padtársamban van, csak nem
+                                veszem észre.”
+                            </li>
+                            <li>
+                                💭 „Simeon éveket várt - nekem pár perc türelem
+                                is nehéz.”
+                            </li>
+                            <li>💭 „A felismerés csendben történik.”</li>
+                        </ul>
+                        <p><b>Elmondja:</b> Csehó-Kovács Márk 12/A-s tanuló</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_18">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 17.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_17"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2026. december 16.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0410.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 2,40</h4>
-            <p><b>Ige: </b> „A gyermek növekedett, telve bölcsességgel.”</p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>A növekedés lassú, de Isten
-              minden nap formál.
-            </p>
-            <ul>
-              <li>💭 „Lehet, hogy most nem látom, de változom.”</li>
-              <li>💭 „Nem kell tökéletesnek lennem - elég, ha fejlődöm.”</li>
-              <li>
-                💭 „A hit is olyan, mint egy fa - lassan nő, de mélyen
-                gyökeredzik.”
-              </li>
-            </ul>
-            <p><b>Elmondja:</b> Paplógó Zétény 12/A-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0383.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 2,36-38</h4>
+                        <p>
+                            <b>Ige: </b> „Anna hálaadással beszélt a
+                            gyermekről.”
+                        </p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>Beszélj arról,
+                            amit Jézus tett az életedben!
+                        </p>
+                        <ul>
+                            <li>
+                                💭 „Ha megosztom, amit kaptam, az nem tűnik el -
+                                megsokszorozódik.”
+                            </li>
+                            <li>
+                                💭 „A hitet nem csak hinni kell, hanem élni.”
+                            </li>
+                            <li>💭 „Egy jó szó is lehet bizonyság.”</li>
+                        </ul>
+                        <p><b>Elmondja:</b> Szalma Dániel 11/A-s tanuló</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_19">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 18.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_18"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2026. december 17.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0405.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 2,41-45</h4>
-            <p><b>Ige: </b> „A tizenkét éves Jézus Jeruzsálemben maradt.”</p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>Isten nem tűnik el - csak néha
-              máshol találod meg, mint ahol keresed.
-            </p>
-            <ul>
-              <li>
-                💭 „Néha azt hiszem, elveszítettem a hitem, pedig csak máshol
-                van.”
-              </li>
-              <li>
-                💭 „Isten ott van az iskolában is, nem csak a templomban.”
-              </li>
-              <li>💭 „A keresés is része a kapcsolatnak.”</li>
-            </ul>
-            <p><b>Elmondja:</b> Szendrei Ákos 12/A-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0410.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 2,40</h4>
+                        <p>
+                            <b>Ige: </b> „A gyermek növekedett, telve
+                            bölcsességgel.”
+                        </p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>A növekedés
+                            lassú, de Isten minden nap formál.
+                        </p>
+                        <ul>
+                            <li>
+                                💭 „Lehet, hogy most nem látom, de változom.”
+                            </li>
+                            <li>
+                                💭 „Nem kell tökéletesnek lennem - elég, ha
+                                fejlődöm.”
+                            </li>
+                            <li>
+                                💭 „A hit is olyan, mint egy fa - lassan nő, de
+                                mélyen gyökeredzik.”
+                            </li>
+                        </ul>
+                        <p><b>Elmondja:</b> Paplógó Zétény 12/A-s tanuló</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_20">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 19.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_19"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2026. december 18.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0408.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 2,46-49</h4>
-            <p>
-              <b>Ige: </b> „Nem tudtátok, hogy Atyám dolgaiban kell lennem?”
-            </p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>Merj kérdezni Istentől, merj
-              keresni - Ő válaszol.
-            </p>
-            <ul>
-              <li>💭 „Imában nem kell szép mondatok, csak őszinteség.”</li>
-              <li>💭 „Isten bírja a kérdéseimet.”</li>
-              <li>💭 „A hit nem vak követés, hanem útkeresés.”</li>
-            </ul>
-            <p><b>Elmondja:</b> Bankó Jázmin Fanni 11/B-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0405.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 2,41-45</h4>
+                        <p>
+                            <b>Ige: </b> „A tizenkét éves Jézus Jeruzsálemben
+                            maradt.”
+                        </p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>Isten nem tűnik
+                            el - csak néha máshol találod meg, mint ahol
+                            keresed.
+                        </p>
+                        <ul>
+                            <li>
+                                💭 „Néha azt hiszem, elveszítettem a hitem,
+                                pedig csak máshol van.”
+                            </li>
+                            <li>
+                                💭 „Isten ott van az iskolában is, nem csak a
+                                templomban.”
+                            </li>
+                            <li>💭 „A keresés is része a kapcsolatnak.”</li>
+                        </ul>
+                        <p><b>Elmondja:</b> Szendrei Ákos 12/A-s tanuló</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_21">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 20.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_20"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2026. december 19.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0385.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 2,51</h4>
-            <p><b>Ige: </b> „Anyja mindezeket szívében őrizte.”</p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>Amit Jézus mond, azt érdemes
-              megőrizni.
-            </p>
-            <ul>
-              <li>
-                💭 „Lehet, hogy ma mond valamit, amit csak jövőre értek meg.”
-              </li>
-              <li>
-                💭 „Az imában született gondolatokat jegyezd fel - később
-                kincsek lesznek.”
-              </li>
-              <li>💭 „A szív a legjobb emlékeztető.”</li>
-            </ul>
-            <p><b>Elmondja:</b> Tőke-Tax Rudolf 11/A-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0408.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 2,46-49</h4>
+                        <p>
+                            <b>Ige: </b> „Nem tudtátok, hogy Atyám dolgaiban
+                            kell lennem?”
+                        </p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>Merj kérdezni
+                            Istentől, merj keresni - Ő válaszol.
+                        </p>
+                        <ul>
+                            <li>
+                                💭 „Imában nem kell szép mondatok, csak
+                                őszinteség.”
+                            </li>
+                            <li>💭 „Isten bírja a kérdéseimet.”</li>
+                            <li>
+                                💭 „A hit nem vak követés, hanem útkeresés.”
+                            </li>
+                        </ul>
+                        <p><b>Elmondja:</b> Bankó Jázmin Fanni 11/B-s tanuló</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_22">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">
-              2026. december 21. Advent negyedik vasárnapja
-            </h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_21"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2026. december 20.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0369.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 3,4-6</h4>
-            <p>
-              <b>Ige: </b> „Készítsétek az Úr útját, tegyétek egyenessé
-              ösvényeit!”
-            </p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>Van, amit el kell engedni, hogy
-              Jézusnak helyet adj.
-            </p>
-            <ul>
-              <li>💭 „Lehet, hogy a bocsánatkérés az én útépítésem.”</li>
-              <li>💭 „Nem kell tökéletes lenni, csak őszinte.”</li>
-              <li>💭 „Ha helyet csinálok a szívemben, Ő biztosan jön.”</li>
-            </ul>
-            <p><b>Elmondja:</b> Szegedi Nóra 9/B-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0385.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 2,51</h4>
+                        <p><b>Ige: </b> „Anyja mindezeket szívében őrizte.”</p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>Amit Jézus mond,
+                            azt érdemes megőrizni.
+                        </p>
+                        <ul>
+                            <li>
+                                💭 „Lehet, hogy ma mond valamit, amit csak
+                                jövőre értek meg.”
+                            </li>
+                            <li>
+                                💭 „Az imában született gondolatokat jegyezd fel
+                                - később kincsek lesznek.”
+                            </li>
+                            <li>💭 „A szív a legjobb emlékeztető.”</li>
+                        </ul>
+                        <p><b>Elmondja:</b> Tőke-Tax Rudolf 11/A-s tanuló</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_23">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 22.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_22"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            2026. december 21. Advent negyedik vasárnapja
+                        </h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0367.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 3,10-11</h4>
-            <p>
-              <b>Ige: </b> „Akinek két ruhája van, ossza meg azzal, akinek
-              nincs.”
-            </p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>A szeretet tettekben látszik.
-            </p>
-            <ul>
-              <li>💭 „Nem a nagy dolgok számítanak, hanem a szív.”</li>
-              <li>💭 „Egy jó szó is lehet ajándék.”</li>
-              <li>💭 „A karácsony nem a csomagolásról szól.”</li>
-            </ul>
-            <p><b>Elmondja:</b> Kacsari Dominik 9/A-s tanuló</p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0369.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 3,4-6</h4>
+                        <p>
+                            <b>Ige: </b> „Készítsétek az Úr útját, tegyétek
+                            egyenessé ösvényeit!”
+                        </p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>Van, amit el kell
+                            engedni, hogy Jézusnak helyet adj.
+                        </p>
+                        <ul>
+                            <li>
+                                💭 „Lehet, hogy a bocsánatkérés az én
+                                útépítésem.”
+                            </li>
+                            <li>
+                                💭 „Nem kell tökéletes lenni, csak őszinte.”
+                            </li>
+                            <li>
+                                💭 „Ha helyet csinálok a szívemben, Ő biztosan
+                                jön.”
+                            </li>
+                        </ul>
+                        <p><b>Elmondja:</b> Szegedi Nóra 9/B-s tanuló</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_24">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 23.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_23"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2026. december 22.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <h2>Úton Jézus felé</h2>
-            <h4>Adventi naptár fiataloknak - Lukács evangéliuma alapján</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0384.mp4" type="video/mp4" />
-            </video>
-            <h4>Lk 2,10-11</h4>
-            <p><b>Ige: </b> „Ma megszületett nektek az Üdvözítő.”</p>
-            <p>
-              <b>Mit üzen nekem ez az ige? : </b>Jézus nem csak a múltban
-              született meg - ma is meg akar születni benned.
-            </p>
-            <ul>
-              <li>💭 „A karácsony nemcsak történet - valóság.”</li>
-              <li>💭 „Jézus ma is képes újat kezdeni bennem.”</li>
-              <li>💭 „Nemcsak várni kell Őt - be is kell engedni.”</li>
-            </ul>
-            <p><b>Elmondja:</b> Horváth Dániel 11/A-s tanuló</p>
-            <p>
-              <b
-                style="text-align: center; color: red; font-variant: small-caps"
-                >Boldog Karácsonyt kíván iskolánk összes tanulója és
-                munkatársa!</b
-              >
-            </p>
-            <p>
-              „Jézus megszületett - benned is. Engedd, hogy átformálja a
-              szíved!”
-            </p>
-          </div>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0367.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 3,10-11</h4>
+                        <p>
+                            <b>Ige: </b> „Akinek két ruhája van, ossza meg
+                            azzal, akinek nincs.”
+                        </p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>A szeretet
+                            tettekben látszik.
+                        </p>
+                        <ul>
+                            <li>
+                                💭 „Nem a nagy dolgok számítanak, hanem a szív.”
+                            </li>
+                            <li>💭 „Egy jó szó is lehet ajándék.”</li>
+                            <li>💭 „A karácsony nem a csomagolásról szól.”</li>
+                        </ul>
+                        <p><b>Elmondja:</b> Kacsari Dominik 9/A-s tanuló</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_25">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2026. december 24. Szenteste</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
+        <div
+            class="modal"
+            id="myModal_24"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2026. december 23.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-          <!-- Modal body -->
-          <div class="modal-body">
-            <!-- <h2>Úton Jézus felé</h2>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0384.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h4>Lk 2,10-11</h4>
+                        <p>
+                            <b>Ige: </b> „Ma megszületett nektek az Üdvözítő.”
+                        </p>
+                        <p>
+                            <b>Mit üzen nekem ez az ige? : </b>Jézus nem csak a
+                            múltban született meg - ma is meg akar születni
+                            benned.
+                        </p>
+                        <ul>
+                            <li>
+                                💭 „A karácsony nemcsak történet - valóság.”
+                            </li>
+                            <li>💭 „Jézus ma is képes újat kezdeni bennem.”</li>
+                            <li>
+                                💭 „Nemcsak várni kell Őt - be is kell engedni.”
+                            </li>
+                        </ul>
+                        <p><b>Elmondja:</b> Horváth Dániel 11/A-s tanuló</p>
+                        <p>
+                            <b
+                                style="
+                                    text-align: center;
+                                    color: red;
+                                    font-variant: small-caps;
+                                "
+                                >Boldog Karácsonyt kíván iskolánk összes
+                                tanulója és munkatársa!</b
+                            >
+                        </p>
+                        <p>
+                            „Jézus megszületett - benned is. Engedd, hogy
+                            átformálja a szíved!”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_25"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            2026. december 24. Szenteste
+                        </h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <!-- <h2>Úton Jézus felé</h2>
                         <h4>
                             Adventi naptár fiataloknak - Lukács evangéliuma
                             alapján
                         </h4> -->
-            <h4>Az iskola igazgatójának karácsonyi üzenete</h4>
-            <video width="320" height="240" controls>
-              <source src="./videos/IMG_0823.mp4" type="video/mp4" />
-            </video>
-            <h5
-              style="text-align: center; color: red; font-variant: small-caps"
-            >
-              Áldott, békés karácsonyt kívánok mindenkinek!
-            </h5>
-            <h6><em>Dobroczki-Klatka Tünde</em></h6>
-            <h6><em>igazgató</em></h6>
-          </div>
+                        <h4>Az iskola igazgatójának karácsonyi üzenete</h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0823.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h5
+                            style="
+                                text-align: center;
+                                color: red;
+                                font-variant: small-caps;
+                            "
+                        >
+                            Áldott, békés karácsonyt kívánok mindenkinek!
+                        </h5>
+                        <h6><em>Dobroczki-Klatka Tünde</em></h6>
+                        <h6><em>igazgató</em></h6>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <script>
-      const dayOfYear = (date) => {
-        return Math.floor(
-          (date - new Date(date.getFullYear(), 0, 0)) / (1000 * 60 * 60 * 24),
-        );
-      };
+        <div
+            class="modal"
+            id="myModal_26"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            2026. december 24. Szenteste
+                        </h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-      let cl2 = document.querySelectorAll(".cl-2");
-      let cl6 = document.querySelectorAll(".cl-6");
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <!-- <h2>Úton Jézus felé</h2>
+                        <h4>
+                            Adventi naptár fiataloknak - Lukács evangéliuma
+                            alapján
+                        </h4> -->
+                        <h4>Az iskola igazgatójának karácsonyi üzenete</h4>
+                        <video
+                            width="320"
+                            height="240"
+                            controls
+                        >
+                            <source
+                                src="./videos/IMG_0823.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+                        <h5
+                            style="
+                                text-align: center;
+                                color: red;
+                                font-variant: small-caps;
+                            "
+                        >
+                            Áldott, békés karácsonyt kívánok mindenkinek!
+                        </h5>
+                        <h6><em>Dobroczki-Klatka Tünde</em></h6>
+                        <h6><em>igazgató</em></h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            const dayOfYear = (date) => {
+                return Math.floor(
+                    (date - new Date(date.getFullYear(), 0, 0)) /
+                        (1000 * 60 * 60 * 24),
+                );
+            };
 
-      cl2[0].style.width = `${cl6[0].offsetWidth}px`;
+            let cl2 = document.querySelectorAll('.cl-2');
+            let cl6 = document.querySelectorAll('.cl-6');
 
-      let fiokok = document.querySelectorAll(".fiok");
-      let videok = document.querySelectorAll("video");
-      let closeButtons = document.querySelectorAll(".btn-close");
+            cl2[0].style.width = `${cl6[0].offsetWidth}px`;
+            cl2[1].style.width = `${cl6[0].offsetWidth}px`;
 
-      for (let i = 0; i < fiokok.length; i++) {
-        fiokok[i].setAttribute("data-bs-toggle", "modal");
-        fiokok[i].setAttribute("data-bs-target", `#myModal_${i + 1}`);
-        fiokok[i].addEventListener("click", () => {
-          videok[i].play();
-        });
-        closeButtons[i].addEventListener("click", () => {
-          videok[i].pause();
-        });
-        if (i <= dayOfYear(new Date()) - 334) {
-        }
-      }
-    </script>
-  </body>
+            let fiokok = document.querySelectorAll('.fiok');
+            let videok = document.querySelectorAll('video');
+            let closeButtons = document.querySelectorAll('.btn-close');
+
+            for (let i = 0; i < fiokok.length; i++) {
+                fiokok[i].setAttribute('data-bs-toggle', 'modal');
+                fiokok[i].setAttribute('data-bs-target', `#myModal_${i + 1}`);
+                fiokok[i].addEventListener('click', () => {
+                    videok[i].play();
+                });
+                closeButtons[i].addEventListener('click', () => {
+                    videok[i].pause();
+                });
+                if (i <= dayOfYear(new Date()) - 334) {
+                }
+            }
+        </script>
+    </body>
 </html>
