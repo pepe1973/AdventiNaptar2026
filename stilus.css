@@ -39,7 +39,7 @@ body {
 #cim-01 {
   color: #fdfbee;
   background-color: #cfad68bb;
-  font-size: 2em;
+  font-size: 1.5em;
   text-align: center;
   text-shadow: 3px 3px 0px #000000a9;
   /* left: 1em; */
@@ -57,7 +57,7 @@ body {
 
 #cim-02 {
   color: #fdfbee;
-  background-color: #0e3e6ec0;
+  /* background-color: #0e3e6ec0; */
   font-size: 1.5em;
   text-align: center;
   text-shadow: 3px 3px 0px #000000a9;
@@ -83,7 +83,7 @@ body {
 }
 
 .sor2 {
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .cl-6 {
@@ -231,7 +231,7 @@ h2 {
   }
 
   .sor2 {
-    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr 1fr;
     display: flex;
     justify-content: center;
   }
