@@ -194,6 +194,17 @@ h2 {
 
 .mb-06 {
     background-color: #cbccc5;
+    color: var(--kek);
+
+    pre,
+    p,
+    h2 {
+        color: var(--kek);
+    }
+}
+
+.mb-07 {
+    background-color: #686c71;
     color: var(--feher);
 
     pre,
@@ -202,8 +213,19 @@ h2 {
     }
 }
 
-.mb-07 {
-    background-color: #686c71;
+.mb-08 {
+    background-color: #f0ca9f;
+    color: var(--kek);
+
+    pre,
+    p,
+    h2 {
+        color: var(--kek);
+    }
+}
+
+.mb-09 {
+    background-color: #3e454e;
     color: var(--feher);
 
     pre,
@@ -327,9 +349,5 @@ h2 {
 
     iframe {
         width: 305px !important;
-    }
-
-    pre {
-        font-size: 0.8em;
     }
 }
