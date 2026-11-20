@@ -121,7 +121,7 @@ h2 {
 }
 
 .modal-title {
-    color: #492156;
+    color: var(--kek);
 }
 
 .modal-dialog {
@@ -133,9 +133,83 @@ h2 {
 }
 
 .modal-body {
-    background-color: #492156;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+
+    pre {
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+.mb-01 {
+    background-color: #f1f3f5;
+    color: var(--kek);
+
+    pre,
+    p,
+    h2 {
+        color: var(--kek);
+    }
+}
+
+.mb-02 {
+    background-color: #ae9478;
+    color: var(--feher);
+
+    pre,
+    p {
+        color: var(--feher);
+    }
+}
+
+.mb-03 {
+    background-color: #55515d;
+    color: var(--feher);
+
+    pre,
+    p {
+        color: var(--feher);
+    }
+}
+
+.mb-04 {
+    background-color: #c99e7d;
+    color: var(--feher);
+
+    pre,
+    p {
+        color: var(--feher);
+    }
+}
+
+.mb-05 {
+    background-color: #8b8aae;
+    color: var(--feher);
+
+    pre,
+    p {
+        color: var(--feher);
+    }
+}
+
+.mb-06 {
+    background-color: #cbccc5;
+    color: var(--feher);
+
+    pre,
+    p {
+        color: var(--feher);
+    }
+}
+
+.mb-07 {
+    background-color: #686c71;
+    color: var(--feher);
+
+    pre,
+    p {
+        color: var(--feher);
+    }
 }
 
 @media screen and (max-width: 1800px) {
@@ -233,13 +307,16 @@ h2 {
         justify-content: center;
     }
 
-    #cim-01,
-    #cim-02,
+    #cim-01 {
+        font-size: 1.25em;
+    }
+
     #cim-03 {
         font-size: 1em;
     }
 
     #cim-02 {
+        font-size: 1em;
         flex-direction: column;
         gap: 0em;
     }
@@ -250,5 +327,9 @@ h2 {
 
     iframe {
         width: 305px !important;
+    }
+
+    pre {
+        font-size: 0.8em;
     }
 }
