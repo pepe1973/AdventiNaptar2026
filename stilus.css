@@ -350,4 +350,9 @@ h2 {
     iframe {
         width: 305px !important;
     }
+
+    video {
+        height: 240px;
+        width: 310px;
+    }
 }
